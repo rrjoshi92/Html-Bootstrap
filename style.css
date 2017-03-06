@@ -1,0 +1,91 @@
+﻿
+/*    Common classes Start  */
+
+.pull-right {
+    float:right;
+}
+section {
+    margin-bottom:20px;
+}
+
+/*    Common classes End */
+
+/*    Header Section Start */
+
+.logo {
+  padding-top: 10px;
+}
+nav ul {
+    display:inline-block;
+    border-right: 1px solid black;
+    padding:0     10px;
+}
+nav ul:last-child {    
+    border-right:none;   
+}
+.navigation {
+    padding-top: 10px;
+}
+
+/*    Header Section End */
+
+/*    Featured Section Start */
+
+.image {
+    display:inline-block;
+}
+
+.product-title {
+    padding:25px 0;
+    display:inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+
+}
+
+.product-detail ul {
+    padding:10px 0 0 0;
+}
+
+.product-detail ul li {
+    list-style-type:none;
+}
+.product-detail ul li:before {
+    content:" - ";
+    margin:0 3px;
+}
+
+
+/*    Featured Section End */
+
+/*    Prduct-list Section Start */
+
+.product-list-header, .product-table-header {
+    text-align:center;
+    margin: 20px 0;
+}
+.card {
+    border:1px solid black;
+}
+
+.card-block {
+    text-align:center;
+}
+
+.card .product-list ul{
+    padding: 5px 0 0 0;
+    list-style:none;
+}
+
+
+/*    Prduct-list Section End */
+
+/* footer section Start*/
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* footer section End*/
